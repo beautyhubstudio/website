@@ -1,21 +1,34 @@
 ---
-import CheapButton from "../utils/CheapButton.astro";
-import ContactInput from "../utils/ContactInput.astro";
+import CheapButton from '../utils/CheapButton.astro'
+import ContactInput from '../utils/ContactInput.astro'
 ---
 
-<section class="mb-20">
-	<h2 class="text-title mb-8">keep in touch with us</h2>
-	<form class="grid gap-4 md:grid-cols-2 md:gap-8">
-		<ContactInput id="1" label="name" placeholder="input your name" />
-		<ContactInput id="2" label="company" placeholder="input your company" />
-		<ContactInput id="2" type="email" label="email" placeholder="input your email" />
+<section class='mb-20'>
+    <header class='mb-8 grid gap-4 md:grid-cols-2 md:gap-8'>
+        <h2 class='text-title'>Upoznajte Naš Tim</h2>
+        <p class='text-sm opacity-50 md:text-base'>
+            meet the best expert talents from our team who are ready to be your
+            partners
+        </p>
+    </header>
+
+    <h2 class='text-title mb-8'>keep in touch with us</h2>
+    <form class='grid gap-4 md:grid-cols-2 md:gap-8'>
+        <ContactInput id='1' label='name' placeholder='input your name' />
+        <ContactInput id='2' label='company' placeholder='input your company' />
+        <ContactInput
+            id='2'
+            type='email'
+            label='email'
+            placeholder='input your email'
+        />
         <div>
-            <span class="block mb-2 opacity-80">services</span>
-            <div class="flex items-end gap-4 flex-wrap text-sm">
+            <span class='block mb-2 opacity-80'>services</span>
+            <div class='flex items-end gap-4 flex-wrap text-sm'>
                 <CheapButton>architecture</CheapButton>
                 <CheapButton>interior</CheapButton>
                 <CheapButton>furnitures</CheapButton>
             </div>
         </div>
-	</form>
+    </form>
 </section>
