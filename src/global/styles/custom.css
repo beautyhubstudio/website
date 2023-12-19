@@ -13,7 +13,11 @@
         @apply mb-12;
     }
 
-    .heading {
+    .logo {
         @apply bg-gradient-to-b from-neutral-300 to-slate-400 bg-clip-text text-transparent;
+    }
+
+    .heading {
+        @apply text-2xl font-medium md:text-3xl bg-gradient-to-b from-neutral-300 to-slate-500 bg-clip-text text-transparent mb-4;
     }
 }
