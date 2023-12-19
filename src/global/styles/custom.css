@@ -20,4 +20,12 @@
     .heading {
         @apply text-2xl font-medium md:text-3xl bg-gradient-to-b from-neutral-300 to-slate-500 bg-clip-text text-transparent mb-4;
     }
+
+    .subheading {
+        @apply text-slate-500;
+    }
+
+    .text-color {
+        @apply text-slate-400 opacity-90;
+    }
 }
