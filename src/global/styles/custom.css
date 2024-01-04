@@ -22,7 +22,7 @@
     }
 
     .subheading {
-        @apply text-heading;
+        @apply font-medium text-heading;
     }
 
     .text-color {
