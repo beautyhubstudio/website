@@ -25,6 +25,10 @@
         @apply font-medium text-heading;
     }
 
+    .description {
+        @apply bg-gradient-to-b from-heading to-heading bg-clip-text text-transparent;
+    }
+
     .text-color {
         @apply text-text;
     }
