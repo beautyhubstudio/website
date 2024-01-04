@@ -5,6 +5,7 @@ export default {
         extend: {
             colors: {
                 logo: '#cec4bd',
+                heading: '#bcb3ac',
                 text: '#beb6ae'
             }
         }

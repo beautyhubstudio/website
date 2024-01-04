@@ -18,11 +18,11 @@
     }
 
     .heading {
-        @apply text-2xl font-medium md:text-3xl bg-gradient-to-b from-neutral-300 to-slate-500 bg-clip-text text-transparent mb-4;
+        @apply text-2xl font-medium md:text-3xl bg-gradient-to-b from-heading to-heading bg-clip-text text-transparent mb-4;
     }
 
     .subheading {
-        @apply text-slate-500;
+        @apply text-heading;
     }
 
     .text-color {
