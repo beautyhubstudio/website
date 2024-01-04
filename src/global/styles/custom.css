@@ -14,7 +14,7 @@
     }
 
     .logo {
-        @apply bg-gradient-to-b from-neutral-300 to-slate-400 bg-clip-text text-transparent;
+        @apply text-logo;
     }
 
     .heading {
@@ -26,6 +26,6 @@
     }
 
     .text-color {
-        @apply text-slate-400 opacity-90;
+        @apply text-text;
     }
 }
